@@ -20,9 +20,9 @@ const spinnerBox = document.getElementById('spinner-box')
 const titleInput = document.getElementById('id_title')
 const bodyInput = document.getElementById('id_body')
 
-backBtn.addEventListener('click', ()=>{
-    history.back()
-})
+// backBtn.addEventListener('click', ()=>{
+//     history.back()
+// })
 
 $.ajax({
     type: 'GET',
