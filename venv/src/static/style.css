@@ -1,3 +1,14 @@
 .not-visible {
     display: none;
 }
+
+
+#my-awesome-dropzone .dz {
+    border: dashed !important;
+    border-color: #ccc;
+    border-radius: 10px !important;
+}
+
+#my-awesome-dropzone .dz:hover{
+    background-color: aliceblue !important;
+}
